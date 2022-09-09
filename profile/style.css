@@ -30,7 +30,11 @@ h1, h2, h3, h4, p, figcaption{
   padding: 20px;
  color: black;
  margin-top: 0%;
+ text-align: center;
  
+ margin-top: 0;
+ margin-bottom: 15px;
+ position:relative; top: -175px;
  
 }
 img {
@@ -38,6 +42,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  position:relative; top: -175px;
 }
 .sidenav {
   width: 130px;
@@ -99,4 +104,21 @@ footer {
 .faq {
   text-align: center;
   
+}
+.right-side {
+  height: 400px;
+  width: 100px;
+  float: right;
+  border-radius: 20px;
+  margin-top: 20px;
+
+}
+.left-side {
+  height: 400px;
+  width: 100px;
+  float: left;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  background-color: black;
 }
