@@ -173,3 +173,93 @@ h6 {
   font-size: large;
   text-align: center;
 }
+h7 {
+  text-align: centers;
+  position: relative;
+    top: -350px;
+    left: 250px;
+    font-size: x-large;
+}
+
+
+
+.blog-text{
+   width: 600px;
+  position: relative;
+  left: 115px;
+  width: 1200px;
+  text-align: left;
+  
+}
+h8 {
+  text-align: centers;
+  position: relative;
+    top: -350px;
+    left: 250px;
+    font-size: x-large;
+
+}
+.blog-text2{
+  position: relative;
+  left: -17px;
+  width: 1200px;
+}
+  .blog-text3 {
+    position: relative;
+    top: -400px;
+    left: -232px;
+    width: 1200px;
+  }
+  .blog-text4 {
+    position: relative;
+    top: -450px;
+    left: -142px;
+    width: 1200px;
+}
+  
+  h9 {
+    position: relative;
+    top: -460px;
+    left: 250px;
+    font-size: x-large;
+  }
+  h10 {
+    position: relative;
+    top: -400px;
+    left: 321px;
+    font-size: xx-large;
+    
+  }
+  .tesla1 {
+    width: 600px;
+    position: relative;
+    top: -380px;
+    left: 227px;
+    width: 1200px;
+    text-align: left;
+  }
+  .tesla2 {
+    width: 600px;
+    position: relative;
+    top: -420px;
+    left: 227px;
+    width: 1200px;
+    text-align: left;
+  }
+  .tesla3 {
+    width: 600px;
+    position: relative;
+    top: -460px;
+    left: 227px;
+    width: 1200px;
+    text-align: left;
+  }
+  .tesla4 
+  {
+    width: 600px;
+    position: relative;
+    top: -500px;
+    left: 227px;
+    width: 1200px;
+    text-align: left;
+  }
