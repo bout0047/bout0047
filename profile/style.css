@@ -26,25 +26,9 @@ body {
   background-color: #04AA6D;
   color: white;
 }
-h1, h2, h3, h4, p, figcaption{
-  margin-top: -10px;
-  padding: 20px;
- color: black;
- margin-top: 0%;
- text-align: center;
- 
- margin-top: 0;
- margin-bottom: 15px;
- position:relative; top: -350px; left: 20px;
-}
 
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  position:relative; top: -320px; left: 20px;
-}
+
+
 .sidenav {
   width: 190px;
   
@@ -77,53 +61,12 @@ img {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-.parent {
-  display: grid;
-  grid-template: auto 1fr auto / auto 1fr auto;
-}
 
-header {
-  padding: 2rem;
-  grid-column: 1 / 4;
-}
-
-.left-side {
-  grid-column: 1 / 2;
-}
-
-main {
-  grid-column: 2 / 3;
-}
-
-.right-side {
-  grid-column: 3 / 4;
-}
-
-footer {
-  grid-column: 1 / 4;
-}
 .move_down {
   text-align: center;
   position:relative; bottom: -320px; 
 
   
-}
-.right-side {
-  height: 400px;
-  width: 100px;
-  float: right;
-  border-radius: 20px;
-  margin-top: 20px;
-
-}
-.left-side {
-  height: 400px;
-  width: 100px;
-  float: left;
-  border-radius: 20px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  background-color: black;
 }
 summary {
   font-size: 1.25rem;
@@ -158,78 +101,35 @@ details > summary::-webkit-details-marker {
 .hz_logo
 {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  position: relative;
-  top: -45px; left: 710px;
-  right: 50px;
-  max-width:5%;
-  width:42px;
-  height:42px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: relative;
+    top: -45px;
+    left: 680px;
+    right: 50px;
+    max-width: 5%;
+    width: 42px;
+    height: 42px
  
 }
 h6 {
   font-size: large;
   text-align: center;
 }
-h7 {
-  text-align: centers;
-  position: relative;
-    top: -350px;
-    left: 250px;
-    font-size: x-large;
+h1{
+  text-align: center;
 }
 
 
 
-.blog-text{
-   width: 600px;
-  position: relative;
-  left: 115px;
-  width: 1200px;
-  text-align: left;
+
+
+
   
-}
-h8 {
-  text-align: centers;
-  position: relative;
-    top: -350px;
-    left: 250px;
-    font-size: x-large;
-
-}
-.blog-text2{
-  position: relative;
-  left: -17px;
-  width: 1200px;
-}
-  .blog-text3 {
-    position: relative;
-    top: -400px;
-    left: -232px;
-    width: 1200px;
-  }
-  .blog-text4 {
-    position: relative;
-    top: -450px;
-    left: -142px;
-    width: 1200px;
-}
+ 
   
-  h9 {
-    position: relative;
-    top: -460px;
-    left: 250px;
-    font-size: x-large;
-  }
-  h10 {
-    position: relative;
-    top: -400px;
-    left: 321px;
-    font-size: xx-large;
-    
-  }
+  
   .tesla1 {
     width: 600px;
     position: relative;
@@ -263,3 +163,107 @@ h8 {
     width: 1200px;
     text-align: left;
   }
+  
+  
+  .bandai {
+    width: 600px;
+    position: relative;
+    top: -500px;
+    left: 227px;
+    width: 1200px;
+    text-align: left;
+  }
+.bandai2 {
+  width: 600px;
+    position: relative;
+    top: -540px;
+    left: 227px;
+    width: 1200px;
+    text-align: left;
+  }
+  .bandai3 {
+    width: 600px;
+    position: relative;
+    top: -580px;
+    left: 227px;
+    width: 1200px;
+    text-align: left;
+  }
+  .bandai4 {
+    width: 600px;
+    position: relative;
+    top: -620px;
+    left: 227px;
+    width: 1200px;
+    text-align: left;
+  }
+
+
+
+.sam1 {
+  position: relative;
+  top: -600px;
+  left: 227px;
+  width: 1200px;
+  text-align: left
+}
+.sam2 {
+  position: relative;
+    top: -640px;
+    left: 227px;
+    width: 1200px;
+    text-align: left;
+}
+table, th, td {
+  border: 1px solid;
+ 
+}
+.parent {
+  display: grid;
+  grid-template: auto 1fr auto /auto 1fr auto;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.header2{
+padding: 2rem;
+grid-column: 1/4;
+}
+.left-side {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  column-width: 200px;
+}
+main {
+  grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+padding: 40px;
+
+}
+.right-side {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  column-width: 200px;
+}
+footer{
+  grid-column: 1 / 4;
+  text-align:center;
+}
+.profile {
+  text-align: center;
+}
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.probar {
+  width: 965px;
+  height: 50px;
+}
