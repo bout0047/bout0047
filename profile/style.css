@@ -126,94 +126,6 @@ h1{
 
 
 
-  
- 
-  
-  
-  .tesla1 {
-    width: 600px;
-    position: relative;
-    top: -380px;
-    left: 227px;
-    width: 1200px;
-    text-align: left;
-  }
-  .tesla2 {
-    width: 600px;
-    position: relative;
-    top: -420px;
-    left: 227px;
-    width: 1200px;
-    text-align: left;
-  }
-  .tesla3 {
-    width: 600px;
-    position: relative;
-    top: -460px;
-    left: 227px;
-    width: 1200px;
-    text-align: left;
-  }
-  .tesla4 
-  {
-    width: 600px;
-    position: relative;
-    top: -500px;
-    left: 227px;
-    width: 1200px;
-    text-align: left;
-  }
-  
-  
-  .bandai {
-    width: 600px;
-    position: relative;
-    top: -500px;
-    left: 227px;
-    width: 1200px;
-    text-align: left;
-  }
-.bandai2 {
-  width: 600px;
-    position: relative;
-    top: -540px;
-    left: 227px;
-    width: 1200px;
-    text-align: left;
-  }
-  .bandai3 {
-    width: 600px;
-    position: relative;
-    top: -580px;
-    left: 227px;
-    width: 1200px;
-    text-align: left;
-  }
-  .bandai4 {
-    width: 600px;
-    position: relative;
-    top: -620px;
-    left: 227px;
-    width: 1200px;
-    text-align: left;
-  }
-
-
-
-.sam1 {
-  position: relative;
-  top: -600px;
-  left: 227px;
-  width: 1200px;
-  text-align: left
-}
-.sam2 {
-  position: relative;
-    top: -640px;
-    left: 227px;
-    width: 1200px;
-    text-align: left;
-}
 table, th, td {
   border: 1px solid;
  
@@ -232,7 +144,7 @@ grid-column: 1/4;
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 3;  
   column-width: 200px;
 }
 main {
@@ -266,4 +178,32 @@ footer{
 .probar {
   width: 965px;
   height: 50px;
+}
+.hz-logo {
+  width: 43px;
+  height: 50px;
+  position: relative;
+  left: 950px;
+  top: 2px;
+}
+.robot {
+  height: 500px;
+  width: 400px;
+}
+.robot-text {
+  text-align: left;
+    width: 590px;
+    position: relative;
+    top: -520px;
+    left: 430px;
+}
+.robot1 {
+  width: 1000px;
+}
+.hz-pic {
+  height: 300px;
+    width: 500px;
+    position: relative;
+    top: -507px;
+    left: 430px;
 }
